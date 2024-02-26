@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b8ddf349fd587e4cb535db2c5e1c133, type: 3}
+  m_Name: Game Item Data
+  m_EditorClassIdentifier: 
+  GameItemDatas:
+  - code: 0
+    nameItem: Health Potion
+    sprite: {fileID: 21300000, guid: cc6124738417e054f800a340155c8b54, type: 3}
+    ratity: 1
+    type: 0
+    description: Restores 100 HP.
+  - code: 1
+    nameItem: Stamina Potion
+    sprite: {fileID: 21300000, guid: 04a80cd037044f547860aeec645d25d8, type: 3}
+    ratity: 1
+    type: 0
+    description: Restores 50 ST.
+  - code: 2
+    nameItem: Strength Essential Oil
+    sprite: {fileID: 21300000, guid: abc3ce8ff0840a04eae7bcd5d0cb0407, type: 3}
+    ratity: 2
+    type: 0
+    description: Increases DMG by 25% for 150s.
+  - code: 3
+    nameItem: Defensive Essential Oil
+    sprite: {fileID: 21300000, guid: 31d570494b2993248ab4baf6fb1bf7d7, type: 3}
+    ratity: 2
+    type: 0
+    description: Increases DEF by 25% for 150s.
+  - code: 10
+    nameItem: Growth Orb - Small
+    sprite: {fileID: 21300000, guid: 0cc10918b747c234397ad20ff7e34a06, type: 3}
+    ratity: 1
+    type: 1
+    description: Provides 1,000 Character EXP to increase a character's level.
+  - code: 11
+    nameItem: Growth Orb - Medium
+    sprite: {fileID: 21300000, guid: 676a5a85a9f55614496254c82e292575, type: 3}
+    ratity: 2
+    type: 1
+    description: Provides 5,000 Character EXP to increase a character's level.
+  - code: 12
+    nameItem: Growth Orb - Big
+    sprite: {fileID: 21300000, guid: fef42ac893ebefc4bbe5d78ec309dd22, type: 3}
+    ratity: 3
+    type: 1
+    description: Provides 20,000 Character EXP to increase a character's level.
+  - code: 200
+    nameItem: Forged Spearhead - Low Tier
+    sprite: {fileID: 21300000, guid: a86aa0f3dc0bb644486c6dfaa3c4709d, type: 3}
+    ratity: 1
+    type: 1
+    description: '"Forged Spearhead - Low Tier": Crafted with meticulous care, this
+      Forged Spearhead represents the foundation of weapon enhancement. Infused with
+      basic enchantments and crafted from resilient materials, this spearhead serves
+      as an entry point for enhancing weapons. When affixed to a weapon, it bestows
+      a modest increase in power and durability, setting the stage for further augmentation.'
+  - code: 201
+    nameItem: Forged Spearhead - Mid Tier
+    sprite: {fileID: 21300000, guid: bacc8b7158448aa4293667095e7f17ea, type: 3}
+    ratity: 2
+    type: 1
+    description: '"Forged Spearhead - Mid Tier": An intermediate-level Forged Spearhead,
+      meticulously designed and imbued with more potent enchantments. Its craftsmanship
+      surpasses the basic tier, offering a more substantial enhancement to compatible
+      weapons. When integrated, it significantly amplifies the weapon''s strength
+      and resilience, marking a notable improvement in combat performance.'
+  - code: 202
+    nameItem: Forged Spearhead - High Tier
+    sprite: {fileID: 21300000, guid: 007f6b9496014fa4dad546de4da30296, type: 3}
+    ratity: 3
+    type: 1
+    description: '"Forged Spearhead - High Tier": The pinnacle of Forged Spearheads,
+      meticulously forged and infused with ancient enchantments of unparalleled potency.
+      This spearhead exemplifies superior craftsmanship and strength. When melded
+      with a weapon, it bestows remarkable power and resilience, elevating the weapon''s
+      capabilities to their peak. A coveted artifact among warriors seeking to unleash
+      the full potential of their armaments.'
+  - code: 203
+    nameItem: Forged Bow
+    sprite: {fileID: 21300000, guid: 49f2cc958c1133146ab17bff253e0131, type: 3}
+    ratity: 4
+    type: 1
+    description: '"Forged Bow": Crafted from the finest materials and imbued with
+      ancient enchantments, this legendary bow is a testament to precision and power
+      focus and perception, allowing for unparalleled accuracy even in the midst
+      of chaos. A coveted tool for those who seek mastery in ranged combat.'
+  - code: 204
+    nameItem: Forged Sword
+    sprite: {fileID: 21300000, guid: 02a6c5003dc11aa4ea4f5d79600d96fa, type: 3}
+    ratity: 4
+    type: 1
+    description: '"Forged Sword" : A legendary sword forged from enchanted steel,
+      known for its unparalleled sharpness and devastating damage. Its unique ability
+      grants the wielder increased strength and resilience in battle, empowering
+      each strike with a surge of powerful energy. A weapon coveted by warriors seeking
+      glory and triumph in the midst of chaos.'
+  - code: 100
+    nameItem: Red Gemstone
+    sprite: {fileID: 21300000, guid: 57a33f0c475c5364fbe929986920e958, type: 3}
+    ratity: 0
+    type: 1
+    description: Vibrant like a burning ember, exudes warmth and passion. Its fiery
+      hue symbolizes courage and vitality, often associated with bravery and strength.
+  - code: 101
+    nameItem: Flaming Ruby
+    sprite: {fileID: 21300000, guid: abedd3d574f7186479286e25d62caa77, type: 3}
+    ratity: 1
+    type: 1
+    description: Vibrant like a burning ember, exudes warmth and passion. Its fiery
+      hue symbolizes courage and vitality, often associated with bravery and strength.
+  - code: 102
+    nameItem: Crimson Ember
+    sprite: {fileID: 21300000, guid: 21561aa18195ba74eb87e00c3d42304e, type: 3}
+    ratity: 1
+    type: 1
+    description: Vibrant like a burning ember, exudes warmth and passion. Its fiery
+      hue symbolizes courage and vitality, often associated with bravery and strength.
+  - code: 103
+    nameItem: Inferno Garnet
+    sprite: {fileID: 21300000, guid: 45477e0985f3dd046b3f7c82af380f86, type: 3}
+    ratity: 2
+    type: 1
+    description: Vibrant like a burning ember, exudes warmth and passion. Its fiery
+      hue symbolizes courage and vitality, often associated with bravery and strength.
+  - code: 104
+    nameItem: Blue Sapphire
+    sprite: {fileID: 21300000, guid: 44b917fdecd23a542ac588316fbaadac, type: 3}
+    ratity: 0
+    type: 1
+    description: Reminiscent of an icy glacier, embodies tranquility and clarity.
+      Its cool tones evoke serenity and wisdom, representing a calming force amidst
+      chaos.
+  - code: 105
+    nameItem: Azure Frost
+    sprite: {fileID: 21300000, guid: 7248db68c7f55654a8cda076a2a36ab0, type: 3}
+    ratity: 1
+    type: 1
+    description: Reminiscent of an icy glacier, embodies tranquility and clarity.
+      Its cool tones evoke serenity and wisdom, representing a calming force amidst
+      chaos.
+  - code: 106
+    nameItem: Cobalt Glacier
+    sprite: {fileID: 21300000, guid: 0483cd090fb3ae445840bd31a9031b7a, type: 3}
+    ratity: 1
+    type: 1
+    description: Reminiscent of an icy glacier, embodies tranquility and clarity.
+      Its cool tones evoke serenity and wisdom, representing a calming force amidst
+      chaos.
+  - code: 107
+    nameItem: Sapphire Frostbite
+    sprite: {fileID: 21300000, guid: ae4c0bc1bc7f6154a91a6fcc050f5f51, type: 3}
+    ratity: 2
+    type: 1
+    description: Reminiscent of an icy glacier, embodies tranquility and clarity.
+      Its cool tones evoke serenity and wisdom, representing a calming force amidst
+      chaos.
+  - code: 108
+    nameItem: Yellow Topaz
+    sprite: {fileID: 21300000, guid: d04ad6e3f27fca943b579fe6eb7011ac, type: 3}
+    ratity: 0
+    type: 1
+    description: Akin to a radiant sunbeam, radiates warmth and positivity. Its bright
+      essence symbolizes optimism, creativity, and enlightenment, bringing joy and
+      energy to those who behold it.
+  - code: 109
+    nameItem: Gilded Citrine
+    sprite: {fileID: 21300000, guid: 4b363c388efb0c049b4a5fda4d675580, type: 3}
+    ratity: 1
+    type: 1
+    description: Akin to a radiant sunbeam, radiates warmth and positivity. Its bright
+      essence symbolizes optimism, creativity, and enlightenment, bringing joy and
+      energy to those who behold it.
+  - code: 110
+    nameItem: Golden Sunstone
+    sprite: {fileID: 21300000, guid: 32fc25d7e6ce46f4286a390f2ab9b03f, type: 3}
+    ratity: 1
+    type: 1
+    description: Akin to a radiant sunbeam, radiates warmth and positivity. Its bright
+      essence symbolizes optimism, creativity, and enlightenment, bringing joy and
+      energy to those who behold it.
+  - code: 111
+    nameItem: Radiant Aurelian
+    sprite: {fileID: 21300000, guid: 8b7d185df22bceb4983392fe5bcc536a, type: 3}
+    ratity: 2
+    type: 1
+    description: Akin to a radiant sunbeam, radiates warmth and positivity. Its bright
+      essence symbolizes optimism, creativity, and enlightenment, bringing joy and
+      energy to those who behold it.
+  - code: 112
+    nameItem: Silver Shard
+    sprite: {fileID: 21300000, guid: 6c838485f539e4944b08a9e27684e8c9, type: 3}
+    ratity: 1
+    type: 1
+    description: With its shimmering luster, reflects elegance and sophistication.
+      Associated with intuition and purity, its brilliance evokes a sense of grace
+      and refinement.
+  - code: 113
+    nameItem: Moonstone Essence
+    sprite: {fileID: 21300000, guid: 3d17607f0cd40474fa66ff779717769b, type: 3}
+    ratity: 2
+    type: 1
+    description: With its shimmering luster, reflects elegance and sophistication.
+      Associated with intuition and purity, its brilliance evokes a sense of grace
+      and refinement.
+  - code: 114
+    nameItem: Platinum Core
+    sprite: {fileID: 21300000, guid: 083e92a0f6449994c872ecdecefa4933, type: 3}
+    ratity: 3
+    type: 1
+    description: With its shimmering luster, reflects elegance and sophistication.
+      Associated with intuition and purity, its brilliance evokes a sense of grace
+      and refinement.
+  - code: 20
+    nameItem: Coin
+    sprite: {fileID: 21300000, guid: 0a94ac480aa4311438f56715d6398b6c, type: 3}
+    ratity: 0
+    type: 3
+    description: Coin is the main currency unit used to purchase various items and
+      upgrades in game. It is also used in crafting, the upgrade of Artifacts, and
+      leveling characters.
+  - code: 400
+    nameItem: Goblin's Teeth
+    sprite: {fileID: 21300000, guid: 3a621010e9c426446b8d89931a938158, type: 3}
+    ratity: 0
+    type: 2
+    description: 'Beware, for those who seek these teeth might find themselves facing
+      the wrath of goblin hordes protecting their most valuable treasures.  How to
+      obtain: May drop upon defeating Goblin.'
+  - code: 401
+    nameItem: Forgotten Book
+    sprite: {fileID: 21300000, guid: 16b46af601605c5418677b5c139840fc, type: 3}
+    ratity: 0
+    type: 2
+    description: 'An ancient, weathered tome steeped in mystery and enigma, the Forgotten
+      Book holds secrets lost to time. Its worn cover and faded pages speak of a
+      past filled with knowledge and wisdom, yet its contents remain shrouded in
+      obscurity. '

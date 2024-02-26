@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d56ae838fb1cb14da67553452be21d5, type: 3}
+  m_Name: BOReaper Config
+  m_EditorClassIdentifier: 
+  Name: Reaper
+  Level: 21
+  CurrentEXP: 0
+  Infor: 
+  NormalAttackMultiplier:
+  - MultiplierTypeName: Attack 0
+    Multiplier:
+    - 65.32
+    - 75.1
+    - 84.93
+    - 93.19
+    - 102.01
+    - 114.38
+    - 204.16
+    - 217.09
+    - 228.34
+    - 239.01
+  - MultiplierTypeName: Attack 1
+    Multiplier:
+    - 69.39
+    - 79.91
+    - 88.11
+    - 97.54
+    - 107.39
+    - 119.56
+    - 209.18
+    - 220.51
+    - 230.19
+    - 244.14
+  - MultiplierTypeName: Attack 2
+    Multiplier:
+    - 73.01
+    - 83.17
+    - 92.16
+    - 101.34
+    - 111.23
+    - 203.95
+    - 213.32
+    - 224.12
+    - 234.16
+    - 250.34
+  ChargedAttackMultiplier: []
+  SkillMultiplier:
+  - MultiplierTypeName: ' Elemental Skill'
+    Multiplier:
+    - 120.47
+    - 132.47
+    - 145.12
+    - 158.04
+    - 172.84
+    - 185.71
+    - 198.39
+    - 212.48
+    - 227.01
+    - 241.47
+  SpecialMultiplier:
+  - MultiplierTypeName: ' Elemental Burst'
+    Multiplier:
+    - 160.74
+    - 184.16
+    - 220.64
+    - 245.29
+    - 270.57
+    - 295.37
+    - 320.47
+    - 355.19
+    - 375.28
+    - 400.01
+  MaxHP: 500
+  ATK: 150
+  CRITRate: 50
+  CRITDMG: 50
+  DEF: 40
+  WalkSpeed: 5.1
+  RunSpeed: 5.1
+  HPRatio: 12.5
+  DEFRatio: 0.85
+  LevelRatio: 5
+  NormalAttackCD: 3
+  SkillAttackCD: 4
+  SpecialAttackCD: 5

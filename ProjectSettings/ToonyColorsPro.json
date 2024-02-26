@@ -1,0 +1,24 @@
+{
+    "AutoNames": true,
+    "SubFolders": true,
+    "OverwriteConfig": false,
+    "LoadAllShaders": false,
+    "CustomOutputPath": "Resources/Enemies/Reaper",
+    "LastImplementationExportImportPath": "C:/Users/Admin/Desktop/Unity Training/Fantasy3D/Assets",
+    "OpenedFoldouts": [
+        "STYLIZATION",
+        "THIRD PARTY PLUGINS",
+        "LIGHTING",
+        "SPECIAL EFFECTS",
+        "SURFACE",
+        "OPTIONS"
+    ],
+    "UseCustomFont": true,
+    "CustomFont": {
+        "fileID": 12800000,
+        "guid": "8a406076b7de34849be1f35585875a66",
+        "type": 3
+    },
+    "CustomFontInitialized": true,
+    "Upgrade_Hybrid1toHybrid2_Done": true
+}

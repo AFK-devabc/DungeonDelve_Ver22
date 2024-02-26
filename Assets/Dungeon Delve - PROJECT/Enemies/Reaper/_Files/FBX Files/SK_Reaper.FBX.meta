@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 882e7e2b76d32a146894636508b9608b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Factice001
+    100002: Factice002
+    100004: REAPER
+    100006: REAPER_
+    100008: REAPER_ Head
+    100010: REAPER_ L Clavicle
+    100012: REAPER_ L Finger0
+    100014: REAPER_ L Finger01
+    100016: REAPER_ L Finger02
+    100018: REAPER_ L Finger1
+    100020: REAPER_ L Finger11
+    100022: REAPER_ L Finger12
+    100024: REAPER_ L Finger2
+    100026: REAPER_ L Finger21
+    100028: REAPER_ L Finger22
+    100030: REAPER_ L Finger3
+    100032: REAPER_ L Finger31
+    100034: REAPER_ L Finger32
+    100036: REAPER_ L Finger4
+    100038: REAPER_ L Finger41
+    100040: REAPER_ L Finger42
+    100042: REAPER_ L Forearm
+    100044: REAPER_ L Hand
+    100046: REAPER_ L UpperArm
+    100048: REAPER_ Neck
+    100050: REAPER_ Neck1
+    100052: REAPER_ Pelvis
+    100054: REAPER_ R Clavicle
+    100056: REAPER_ R Finger0
+    100058: REAPER_ R Finger01
+    100060: REAPER_ R Finger02
+    100062: REAPER_ R Finger1
+    100064: REAPER_ R Finger11
+    100066: REAPER_ R Finger12
+    100068: REAPER_ R Finger2
+    100070: REAPER_ R Finger21
+    100072: REAPER_ R Finger22
+    100074: REAPER_ R Finger3
+    100076: REAPER_ R Finger31
+    100078: REAPER_ R Finger32
+    100080: REAPER_ R Finger4
+    100082: REAPER_ R Finger41
+    100084: REAPER_ R Finger42
+    100086: REAPER_ R Forearm
+    100088: REAPER_ R Hand
+    100090: REAPER_ R UpperArm
+    100092: REAPER_ Spine
+    100094: REAPER_ Spine1
+    100096: REAPER_ Tail
+    100098: REAPER_ Tail1
+    100100: REAPER_ Tail2
+    100102: REAPER_ Tail3
+    100104: REAPER_ Tail4
+    100106: REAPER_CHAIN_LINK_LEFT_1
+    100108: REAPER_CHAIN_LINK_LEFT_2
+    100110: REAPER_CHAIN_LINK_LEFT_3
+    100112: REAPER_CHAIN_LINK_RIGHT_1
+    100114: REAPER_CHAIN_LINK_RIGHT_2
+    100116: REAPER_CHAIN_LINK_RIGHT_3
+    100118: REAPER_HOURGLASS
+    100120: REAPER_LANTERN
+    100122: REAPER_SCYTHE
+    100124: REAPER_WING_LEFT_1
+    100126: REAPER_WING_LEFT_2
+    100128: REAPER_WING_LEFT_3
+    100130: REAPER_WING_LEFT_FINGER_A_1
+    100132: REAPER_WING_LEFT_FINGER_A_2
+    100134: REAPER_WING_LEFT_FINGER_A_3
+    100136: REAPER_WING_LEFT_FINGER_B_1
+    100138: REAPER_WING_LEFT_FINGER_B_2
+    100140: REAPER_WING_LEFT_FINGER_B_3
+    100142: REAPER_WING_LEFT_FINGER_C_1
+    100144: REAPER_WING_LEFT_FINGER_C_2
+    100146: REAPER_WING_LEFT_FINGER_C_3
+    100148: REAPER_WING_RIGHT_1
+    100150: REAPER_WING_RIGHT_2
+    100152: REAPER_WING_RIGHT_3
+    100154: REAPER_WING_RIGHT_FINGER_A_1
+    100156: REAPER_WING_RIGHT_FINGER_A_2
+    100158: REAPER_WING_RIGHT_FINGER_A_3
+    100160: REAPER_WING_RIGHT_FINGER_B_1
+    100162: REAPER_WING_RIGHT_FINGER_B_2
+    100164: REAPER_WING_RIGHT_FINGER_B_3
+    100166: REAPER_WING_RIGHT_FINGER_C_1
+    100168: REAPER_WING_RIGHT_FINGER_C_2
+    100170: REAPER_WING_RIGHT_FINGER_C_3
+    100172: //RootNode
+    100174: root
+    100176: SK_Reaper
+    100178: SM_ReaperScythe
+    400000: Factice001
+    400002: Factice002
+    400004: REAPER
+    400006: REAPER_
+    400008: REAPER_ Head
+    400010: REAPER_ L Clavicle
+    400012: REAPER_ L Finger0
+    400014: REAPER_ L Finger01
+    400016: REAPER_ L Finger02
+    400018: REAPER_ L Finger1
+    400020: REAPER_ L Finger11
+    400022: REAPER_ L Finger12
+    400024: REAPER_ L Finger2
+    400026: REAPER_ L Finger21
+    400028: REAPER_ L Finger22
+    400030: REAPER_ L Finger3
+    400032: REAPER_ L Finger31
+    400034: REAPER_ L Finger32
+    400036: REAPER_ L Finger4
+    400038: REAPER_ L Finger41
+    400040: REAPER_ L Finger42
+    400042: REAPER_ L Forearm
+    400044: REAPER_ L Hand
+    400046: REAPER_ L UpperArm
+    400048: REAPER_ Neck
+    400050: REAPER_ Neck1
+    400052: REAPER_ Pelvis
+    400054: REAPER_ R Clavicle
+    400056: REAPER_ R Finger0
+    400058: REAPER_ R Finger01
+    400060: REAPER_ R Finger02
+    400062: REAPER_ R Finger1
+    400064: REAPER_ R Finger11
+    400066: REAPER_ R Finger12
+    400068: REAPER_ R Finger2
+    400070: REAPER_ R Finger21
+    400072: REAPER_ R Finger22
+    400074: REAPER_ R Finger3
+    400076: REAPER_ R Finger31
+    400078: REAPER_ R Finger32
+    400080: REAPER_ R Finger4
+    400082: REAPER_ R Finger41
+    400084: REAPER_ R Finger42
+    400086: REAPER_ R Forearm
+    400088: REAPER_ R Hand
+    400090: REAPER_ R UpperArm
+    400092: REAPER_ Spine
+    400094: REAPER_ Spine1
+    400096: REAPER_ Tail
+    400098: REAPER_ Tail1
+    400100: REAPER_ Tail2
+    400102: REAPER_ Tail3
+    400104: REAPER_ Tail4
+    400106: REAPER_CHAIN_LINK_LEFT_1
+    400108: REAPER_CHAIN_LINK_LEFT_2
+    400110: REAPER_CHAIN_LINK_LEFT_3
+    400112: REAPER_CHAIN_LINK_RIGHT_1
+    400114: REAPER_CHAIN_LINK_RIGHT_2
+    400116: REAPER_CHAIN_LINK_RIGHT_3
+    400118: REAPER_HOURGLASS
+    400120: REAPER_LANTERN
+    400122: REAPER_SCYTHE
+    400124: REAPER_WING_LEFT_1
+    400126: REAPER_WING_LEFT_2
+    400128: REAPER_WING_LEFT_3
+    400130: REAPER_WING_LEFT_FINGER_A_1
+    400132: REAPER_WING_LEFT_FINGER_A_2
+    400134: REAPER_WING_LEFT_FINGER_A_3
+    400136: REAPER_WING_LEFT_FINGER_B_1
+    400138: REAPER_WING_LEFT_FINGER_B_2
+    400140: REAPER_WING_LEFT_FINGER_B_3
+    400142: REAPER_WING_LEFT_FINGER_C_1
+    400144: REAPER_WING_LEFT_FINGER_C_2
+    400146: REAPER_WING_LEFT_FINGER_C_3
+    400148: REAPER_WING_RIGHT_1
+    400150: REAPER_WING_RIGHT_2
+    400152: REAPER_WING_RIGHT_3
+    400154: REAPER_WING_RIGHT_FINGER_A_1
+    400156: REAPER_WING_RIGHT_FINGER_A_2
+    400158: REAPER_WING_RIGHT_FINGER_A_3
+    400160: REAPER_WING_RIGHT_FINGER_B_1
+    400162: REAPER_WING_RIGHT_FINGER_B_2
+    400164: REAPER_WING_RIGHT_FINGER_B_3
+    400166: REAPER_WING_RIGHT_FINGER_C_1
+    400168: REAPER_WING_RIGHT_FINGER_C_2
+    400170: REAPER_WING_RIGHT_FINGER_C_3
+    400172: //RootNode
+    400174: root
+    400176: SK_Reaper
+    400178: SM_ReaperScythe
+    2100000: REAPER_BODY_LEGACY
+    2100002: REAPER_CLOTHE_LEGACY
+    2100004: REAPER_GEAR_LEGACY
+    2100006: REAPER_GLASS_LEGACY
+    2100008: REAPER_SCYTHE_LEGACY
+    2100010: M_ReaperBody
+    2100012: M_ReaperClothe
+    2100014: M_ReaperGear
+    2100016: M_ReaperGlass
+    2100018: M_ReaperScythe
+    2300000: REAPER_SCYTHE
+    2300002: SM_ReaperScythe
+    3300000: REAPER_SCYTHE
+    3300002: SM_ReaperScythe
+    4300000: REAPER
+    4300002: REAPER_SCYTHE
+    4300004: SK_Reaper
+    4300006: SM_ReaperScythe
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: REAPER
+    13700002: SK_Reaper
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ReaperBody
+    second: {fileID: 2100000, guid: e5109b8a7b87be84ab38dfe46c4d8308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ReaperClothe
+    second: {fileID: 2100000, guid: b328ac568db69de4f870a0e9093251ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ReaperGear
+    second: {fileID: 2100000, guid: bfac9d112b833f54d8bd67bb58d026a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ReaperGlass
+    second: {fileID: 2100000, guid: 5ffcc783ac8453f4ab67f494041e4b67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ReaperScythe
+    second: {fileID: 2100000, guid: b9653fde45492b949b1a7e65a42daf32, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

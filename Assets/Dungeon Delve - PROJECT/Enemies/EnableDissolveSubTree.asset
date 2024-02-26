@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: EnableDissolveSubTree
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":661.5223,"y":322.0496},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"0"},{"_action":{"method":{"_baseInfo":"M_SetFloat|ChangeDurationApply|System.Void","_paramsInfo":"System.Single"},"parameters":[{"_type":"System.Single","_name":"DissolveDuration","_targetVariableID":"a1dfdacd-ec2f-4cd4-b14a-0f0da0361842"}],"returnValue":{},"overrideAgent":{"_type":"M_SetFloat","_name":"Mate_Dissolve","_targetVariableID":"cb2c6d08-686f-4a29-a2a6-a84769b06845"},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_color":{"r":0.8868804,"b":1.0,"a":1.0},"_tag":"","_position":{"x":85.03772,"y":506.5627},"_comment":"Th\u1eddi
+    l\u01b0\u1ee3ng h\u00f2a tan","$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"1"},{"_action":{"method":{"_baseInfo":"M_SetFloat|ChangeCurrentValue|System.Void","_paramsInfo":"System.Single"},"parameters":[{"_type":"System.Single","_value":{"$content":1.0,"$type":"System.Single"}}],"returnValue":{},"overrideAgent":{"_type":"M_SetFloat","_name":"Mate_Dissolve","_targetVariableID":"cb2c6d08-686f-4a29-a2a6-a84769b06845"},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_color":{"r":0.8868804,"b":1.0,"a":1.0},"_tag":"","_position":{"x":368.7661,"y":604.333},"_comment":"Gi\u00e1
+    tr\u1ecb hi\u1ec7n t\u1ea1i","$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"2"},{"_action":{"method":{"_baseInfo":"M_SetFloat|ChangeValueSet|System.Void","_paramsInfo":"System.Single"},"parameters":[{"_type":"System.Single","_value":{"$content":0.0,"$type":"System.Single"}}],"returnValue":{},"overrideAgent":{"_type":"M_SetFloat","_name":"Mate_Dissolve","_targetVariableID":"cb2c6d08-686f-4a29-a2a6-a84769b06845"},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_color":{"r":0.8868804,"b":1.0,"a":1.0},"_tag":"","_position":{"x":646.7011,"y":695.3676},"_comment":"Gi\u00e1
+    tr\u1ecb h\u00f2a tan t\u1edbi","$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_action":{"method":{"_baseInfo":"M_SetFloat|Apply|System.Void","_paramsInfo":""},"parameters":[],"returnValue":{},"overrideAgent":{"_type":"M_SetFloat","_name":"Mate_Dissolve","_targetVariableID":"cb2c6d08-686f-4a29-a2a6-a84769b06845"},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_color":{"r":0.8868804,"b":1.0,"a":1.0},"_tag":"","_position":{"x":935.7558,"y":769.0757},"_comment":"B\u1eaft
+    \u0111\u1ea7u h\u00f2a tan","$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"4"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.25
+    _category: 
+    _comments: 
+    _translation: {x: 111.00001, y: -173.99998}
+    _zoomFactor: 0.93790597
+  _haltSerialization: 0

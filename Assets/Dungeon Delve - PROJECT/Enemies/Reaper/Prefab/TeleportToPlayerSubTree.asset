@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: TeleportToPlayerSubTree
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":243.2,"y":533.6},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"0"},{"_action":{"actions":[{"method":{"_baseInfo":"EnemyController|get_PlayerPosition|UnityEngine.Vector3","_paramsInfo":""},"returnValue":{"_type":"UnityEngine.Vector3","_name":"PlayerPosition","_targetVariableID":"a4c38750-7c8d-4447-84ed-f2d2a714dcdb"},"overrideAgent":{"_type":"EnemyController","_name":"This","_targetVariableID":"cadadbe8-67ab-4229-8f07-653ac7122d86"},"$type":"NodeCanvas.Tasks.Actions.GetProperty_Multiplatform"},{"setObject":{"_name":"Indicator","_targetVariableID":"861d5611-6308-4752-81d3-0faec0ab0e0f"},"toObject":{"_name":""},"toPosition":{"_name":"PlayerPosition","_targetVariableID":"a4c38750-7c8d-4447-84ed-f2d2a714dcdb"},"offset":{"_value":{"x":-2.2,"z":2.2}},"$type":"NodeCanvas.Tasks.Actions.SetObjectPosition"},{"setObject":{"_name":"Indicator","_targetVariableID":"861d5611-6308-4752-81d3-0faec0ab0e0f"},"setTo":1,"$type":"NodeCanvas.Tasks.Actions.SetObjectActive"}],"$type":"NodeCanvas.Framework.ActionList"},"_color":{"r":0.8868804,"b":1.0,"a":1.0},"_tag":"","_position":{"x":-303.6222,"y":735.2925},"_comment":"","$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"1"},{"_subTree":{"_value":1},"_position":{"x":8.017578,"y":749.1816},"_comment":"Set
+    value Dissolve tr\u00ean Material","$type":"NodeCanvas.BehaviourTrees.SubTree","$id":"2"},{"_action":{"actions":[{"randomValue":{"_value":true},"minValue":{"_value":0.7},"maxValue":{"_value":1.3},"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},{"setObject":{"_name":"Indicator","_targetVariableID":"861d5611-6308-4752-81d3-0faec0ab0e0f"},"setTo":0,"$type":"NodeCanvas.Tasks.Actions.SetObjectActive"},{"setObject":{"_name":"This","_targetVariableID":"cadadbe8-67ab-4229-8f07-653ac7122d86"},"toObject":{"_name":"Indicator","_targetVariableID":"861d5611-6308-4752-81d3-0faec0ab0e0f"},"toPosition":{},"offset":{},"$type":"NodeCanvas.Tasks.Actions.SetObjectPosition"}],"$type":"NodeCanvas.Framework.ActionList"},"_color":{"r":0.8868804,"b":1.0,"a":1.0},"_tag":"","_position":{"x":188.2869,"y":743.7229},"_comment":"","$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_subTree":{"_value":2},"_position":{"x":447.1818,"y":753.204},"_comment":"Set
+    value Dissolve tr\u00ean Material","$type":"NodeCanvas.BehaviourTrees.SubTree","$id":"4"},{"_action":{"actions":[{"randomValue":{"_value":true},"minValue":{},"maxValue":{"_value":0.5},"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},{"target":{"_name":"Player","_targetVariableID":"228e13d6-2e8b-4815-aa60-e51a38b42538"},"targetPosition":{},"speed":{"_value":300.0},"angleDifference":{"_value":5.0},"saveFoundParameter":{},"overrideAgent":{"_type":"UnityEngine.Transform","_name":"Model","_targetVariableID":"f549d7d3-a24e-481a-82f6-ac95cf209fef"},"$type":"NodeCanvas.Tasks.Actions.RotateTowards"}],"$type":"NodeCanvas.Framework.ActionList"},"_color":{"r":0.8868804,"b":1.0,"a":1.0},"_tag":"","_position":{"x":628.3938,"y":755.6241},"_comment":"","$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"5"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 986526b0f1faa164dab38e58a448ea06, type: 2}
+  - {fileID: 11400000, guid: 1cc60ae5cdcc74d48b9628a74318ce5f, type: 2}
+  _graphSource:
+    _version: 3.25
+    _category: 
+    _comments: 
+    _translation: {x: 404, y: -460}
+    _zoomFactor: 1
+  _haltSerialization: 0

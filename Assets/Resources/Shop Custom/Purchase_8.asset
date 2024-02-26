@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda289797742adf439a4b97fbceb6a4f, type: 3}
+  m_Name: Purchase_8
+  m_EditorClassIdentifier: 
+  id: a7e0db00-b3bb-43bd-b9ea-c36085d809aa
+  itemNameCode: 203
+  purchaseCurrent: 0
+  purchaseMax: 1
+  price: 99999
+  quantityReceive: 1
+  itemRarity: 4

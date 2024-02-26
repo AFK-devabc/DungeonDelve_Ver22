@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chair_1_Dungeon
+  m_Shader: {fileID: 4800000, guid: 8f5d24681d92ea5488ac88aebb6035ac, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USEMASKASMETALRIM_ON
+  - _USEMASKASMETAL_ON
+  m_InvalidKeywords:
+  - TCP2_DISABLE_WRAPPED_LIGHT
+  - _KEYWORD0_KEY0
+  - _NORMALMAP
+  - _OUTLINEDIFFUSECOLOR_ON
+  - _OUTLINE_ON
+  - _USEMETALRIM_ON
+  - _USEMETAL_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 879b9ea3cbbefe24dacc9b5ddf690f57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: cda2308477a69424cb415e057e1dae54, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 1e24acd89187e5f4faf78261d657f116, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseRGBA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainNormalmap:
+        m_Texture: {fileID: 2800000, guid: 879b9ea3cbbefe24dacc9b5ddf690f57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8a2b338261b8f7b4490719a97b5db9ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask1:
+        m_Texture: {fileID: 2800000, guid: bbe075f1591377a4cafe72d26588a05e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap:
+        m_Texture: {fileID: 2800000, guid: d34167e5770a750408fa80e7ff566836, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 218534dbb85ef7a469a5705da6ce3216, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 948e1b7327c293a4081ba3c18eaab19f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampOtherLights:
+        m_Texture: {fileID: 2800000, guid: 8a1b6cd725d3e514aa98f6cc3cddbc0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ASEOutlineWidth: 0
+    - _AlphaCutoff: 0.5
+    - _AnisoBrush: 1
+    - _BaseCellOffset: -2
+    - _BaseCellSharpness: 5.6
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendOutline: 10
+    - _Emissive_tiling: 1
+    - _Emissiveparallax: 0
+    - _Emissivescale: 1
+    - _EnableConstSizeOutline: 0
+    - _EnableTexturedOutline: 0
+    - _EnableZSmooth: 0
+    - _GlossMapScale: 0.832
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _HighlightMultiplier: 1
+    - _IndirectDiffuseContribution: 1
+    - _Keyword0: 0
+    - _Main_tiling: 1
+    - _MetalHighrange: 0.96
+    - _MetalLowrange: -0.75
+    - _Metalcolorhighrange: 14
+    - _Metalcolorlowrange: -10
+    - _Metallic: 0
+    - _MetallicHighlightrange: 0.17
+    - _MetallicHighlightrange1: 0.985
+    - _Mode: 0
+    - _Normalmapscale: 1
+    - _OcclusionStrength: 1
+    - _Offset1: 0
+    - _Offset2: 0
+    - _Outline: 1
+    - _Outlinediffusecolor: 1
+    - _Outlinewidth: 0.007
+    - _Parallax: 0.02
+    - _Parallaxscale: 0
+    - _RampSmooth: 0.2
+    - _RampSmoothAdd: 0.2
+    - _RampThreshold: 0.5
+    - _RimBias: -0.6
+    - _RimMax: 0.046
+    - _RimMin: 0.047
+    - _RimStr: 20
+    - _RimStrength: 0.5
+    - _Rimbias: 0
+    - _Rimoffset: -14.3
+    - _ShadowContribution: 1
+    - _ShadowMultiplier: 1
+    - _Shininess: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SnowThr: 0.5
+    - _SpecBlend: 1
+    - _SpecSmooth: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendOutline: 5
+    - _TCP2_DISABLE_WRAPPED_LIGHT: 1
+    - _TCP2_RAMPTEXT: 0
+    - _TCP2_SPEC_TOON: 0
+    - _TCP2_STYLIZED_FRESNEL: 0
+    - _TexLod: 5
+    - _UVSec: 0
+    - _Useemissive: 0
+    - _Usemaskasemissiveparallax: 0
+    - _Usemaskasmetal: 1
+    - _Usemaskasmetalrim: 1
+    - _Usemetal: 1
+    - _Usemetalmaskasemissiveparallax: 0
+    - _Usemetalmaskasparallax: 0
+    - _Usemetalrim: 1
+    - _ZSmooth: -0.5
+    - _ZWrite: 1
+    - __dirty: 0
+    - __dummy__: 0
+    - __outline_gui_dummy__: 0
+    m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Emissivecolor: {r: 1, g: 1, b: 1, a: 0}
+    - _HColor: {r: 0.9264706, g: 0.8971543, b: 0.84472317, a: 1}
+    - _MainColor: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
+    - _MetalColor: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 0}
+    - _Metalcolor: {r: 0.5840602, g: 0.60464126, b: 0.7075471, a: 0}
+    - _Metalcolormultiplier: {r: 0.5945478, g: 0.57818615, b: 0.6698113, a: 0}
+    - _Metalrimcolor: {r: 0.14110893, g: 0.16011037, b: 0.1981132, a: 0}
+    - _OutlineColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _Outlinecolor: {r: 0.33962262, g: 0.245105, b: 0.245105, a: 0}
+    - _ReflectColor: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 0.5}
+    - _RimColor: {r: 0.16981131, g: 0.10410455, b: 0.08570665, a: 0.922}
+    - _RimDir: {r: 0, g: 0, b: 1, a: 0}
+    - _SColor: {r: 0.25, g: 0.25, b: 0.25, a: 1}
+    - _Shadowcolor: {r: 0.21880564, g: 0.21880564, b: 0.31132078, a: 1}
+    - _SnowAngle: {r: 0, g: 1, b: 0, a: 0}
+    - _SnowColor: {r: 0.94, g: 0.96, b: 1, a: 1}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []

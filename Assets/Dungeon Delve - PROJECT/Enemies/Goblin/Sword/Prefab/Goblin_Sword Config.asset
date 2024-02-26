@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d56ae838fb1cb14da67553452be21d5, type: 3}
+  m_Name: Goblin_Sword Config
+  m_EditorClassIdentifier: 
+  Name: Goblin Sword
+  Level: 2
+  CurrentEXP: 0
+  Infor: 
+  NormalAttackMultiplier:
+  - MultiplierTypeName: Attack 0
+    Multiplier:
+    - 28.39
+    - 31.38
+    - 34.85
+    - 38.12
+    - 42.58
+    - 45.01
+    - 48.81
+    - 52.18
+    - 55.39
+    - 59.76
+  - MultiplierTypeName: Attack 1
+    Multiplier:
+    - 31.32
+    - 35.42
+    - 38.01
+    - 41.05
+    - 44.17
+    - 47.38
+    - 51.57
+    - 54.98
+    - 59.28
+    - 63.19
+  - MultiplierTypeName: Attack 2
+    Multiplier:
+    - 35.18
+    - 38.91
+    - 41.48
+    - 45.29
+    - 48.16
+    - 52.05
+    - 58.23
+    - 61.59
+    - 65.13
+    - 70.89
+  ChargedAttackMultiplier: []
+  SkillMultiplier: []
+  SpecialMultiplier: []
+  MaxHP: 240
+  ATK: 100
+  CRITRate: 20
+  CRITDMG: 50
+  DEF: 11
+  WalkSpeed: 2.5
+  RunSpeed: 4.5
+  HPRatio: 1.5
+  DEFRatio: 0.65
+  LevelRatio: 1.6
+  NormalAttackCD: 3
+  SkillAttackCD: 4
+  SpecialAttackCD: 4

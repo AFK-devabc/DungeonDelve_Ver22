@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7e38069a31c004aa187e49dba98df4, type: 3}
+  m_Name: Character Upgrade Data
+  m_EditorClassIdentifier: 
+  LevelingTextAsset: {fileID: 4900000, guid: fbf6d9971e4474b4e86d6d50733e0b69, type: 3}
+  DataList:
+  - TotalExp: 1000
+  - TotalExp: 2325
+  - TotalExp: 4025
+  - TotalExp: 6175
+  - TotalExp: 8800
+  - TotalExp: 11950
+  - TotalExp: 15675
+  - TotalExp: 20025
+  - TotalExp: 25025
+  - TotalExp: 30725
+  - TotalExp: 37175
+  - TotalExp: 44400
+  - TotalExp: 52450
+  - TotalExp: 61375
+  - TotalExp: 71200
+  - TotalExp: 81950
+  - TotalExp: 93675
+  - TotalExp: 106400
+  - TotalExp: 120175
+  - TotalExp: 135050
+  - TotalExp: 151850
+  - TotalExp: 169850
+  - TotalExp: 189100
+  - TotalExp: 209650
+  - TotalExp: 231525
+  - TotalExp: 254775
+  - TotalExp: 279425
+  - TotalExp: 305525
+  - TotalExp: 333100
+  - TotalExp: 362200
+  - TotalExp: 392850
+  - TotalExp: 425100
+  - TotalExp: 458975
+  - TotalExp: 494525
+  - TotalExp: 531775
+  - TotalExp: 570750
+  - TotalExp: 611500
+  - TotalExp: 654075
+  - TotalExp: 698500
+  - TotalExp: 744800
+  - TotalExp: 795425
+  - TotalExp: 848125
+  - TotalExp: 902900
+  - TotalExp: 959800
+  - TotalExp: 1018875
+  - TotalExp: 1080150
+  - TotalExp: 1143675
+  - TotalExp: 1209475
+  - TotalExp: 1277600
+  - TotalExp: 1348075
+  - TotalExp: 1424575
+  - TotalExp: 1503625
+  - TotalExp: 1585275
+  - TotalExp: 1669550
+  - TotalExp: 1756500
+  - TotalExp: 1846150
+  - TotalExp: 1938550
+  - TotalExp: 2033725
+  - TotalExp: 2131725
+  - TotalExp: 2232600
+  - TotalExp: 2341550
+  - TotalExp: 2453600
+  - TotalExp: 2568775
+  - TotalExp: 2687100
+  - TotalExp: 2808625
+  - TotalExp: 2933400
+  - TotalExp: 3061475
+  - TotalExp: 3192875
+  - TotalExp: 3327650
+  - TotalExp: 3465825
+  - TotalExp: 3614525
+  - TotalExp: 3766900
+  - TotalExp: 3922975
+  - TotalExp: 4082800
+  - TotalExp: 4246400
+  - TotalExp: 4413825
+  - TotalExp: 4585125
+  - TotalExp: 4760350
+  - TotalExp: 4939525
+  - TotalExp: 5122700
+  - TotalExp: 5338925
+  - TotalExp: 5581950
+  - TotalExp: 5855050
+  - TotalExp: 6161850
+  - TotalExp: 6506450
+  - TotalExp: 6893400
+  - TotalExp: 7327825
+  - TotalExp: 7815450
+  - TotalExp: 8362650
+  - TotalExp: 1008362649

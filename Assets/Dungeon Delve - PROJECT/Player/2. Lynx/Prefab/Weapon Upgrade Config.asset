@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1c5ca713159a04297d5aa2b0bdb06d, type: 3}
+  m_Name: Weapon Upgrade Config
+  m_EditorClassIdentifier: 
+  maxLevelUpgrade: 10
+  RequiresDatas:
+  - coinCost: 12500
+    requiresItem:
+    - code: 200
+      value: 3
+    - code: 112
+      value: 4
+  - coinCost: 30000
+    requiresItem:
+    - code: 201
+      value: 3
+    - code: 113
+      value: 2
+  - coinCost: 55000
+    requiresItem:
+    - code: 201
+      value: 4
+    - code: 113
+      value: 3
+  - coinCost: 85000
+    requiresItem:
+    - code: 201
+      value: 6
+    - code: 113
+      value: 5
+  - coinCost: 122500
+    requiresItem:
+    - code: 201
+      value: 9
+    - code: 113
+      value: 7
+  - coinCost: 242500
+    requiresItem:
+    - code: 202
+      value: 5
+    - code: 114
+      value: 5
+    - code: 203
+      value: 1
+  - coinCost: 502500
+    requiresItem:
+    - code: 202
+      value: 7
+    - code: 114
+      value: 7
+    - code: 203
+      value: 2
+  - coinCost: 952500
+    requiresItem:
+    - code: 202
+      value: 9
+    - code: 114
+      value: 9
+    - code: 203
+      value: 3
+  - coinCost: 1652500
+    requiresItem:
+    - code: 202
+      value: 15
+    - code: 114
+      value: 15
+    - code: 203
+      value: 5

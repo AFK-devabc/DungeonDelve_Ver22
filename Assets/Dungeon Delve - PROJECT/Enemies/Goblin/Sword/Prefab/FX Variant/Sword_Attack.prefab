@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7653089499884748556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2256077555130675932}
+  - component: {fileID: 3462288075418050912}
+  - component: {fileID: 2576111974529329993}
+  m_Layer: 0
+  m_Name: Sword_Attack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2256077555130675932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653089499884748556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1146490787961555013}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3462288075418050912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653089499884748556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c42a765dc2da0354fb65f72690ec3325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0.6
+  OnEndTimerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2576111974529329993}
+        m_TargetAssemblyTypeName: Reference, Assembly-CSharp
+        m_MethodName: Release
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3594031518791538787}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2576111974529329993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653089499884748556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8a2bd8d10eafa4184b59cca8a25686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2535005886409717330
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2256077555130675932}
+    m_Modifications:
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087064296663054402, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_Name
+      value: PS_Attack Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087064296663054402, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1329990188943372685, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+    - {fileID: 8486800057027898914, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+--- !u!4 &1146490787961555013 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3226548895660998167, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+  m_PrefabInstance: {fileID: 2535005886409717330}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3594031518791538787 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1355221696568176177, guid: c62f6b289da0d6b4d878f052e306b553, type: 3}
+  m_PrefabInstance: {fileID: 2535005886409717330}
+  m_PrefabAsset: {fileID: 0}

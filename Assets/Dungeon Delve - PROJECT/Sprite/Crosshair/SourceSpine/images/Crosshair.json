@@ -1,0 +1,28 @@
+{ "skeleton": { "images": "~/Desktop/Unity Training/Fantasy_Project3D/Assets/UI/CenterPoint/SourceSpine/images2/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Circle", "bone": "root", "attachment": "Circle" },
+	{ "name": "Point", "bone": "root", "attachment": "Point" },
+	{ "name": "Line_Max", "bone": "root", "attachment": "Line_Max" },
+	{ "name": "Line_Max copy", "bone": "root", "attachment": "Line_Max copy" }
+],
+"skins": {
+	"default": {
+		"Circle": {
+			"Circle": { "x": 0, "y": 0, "width": 84, "height": 84 }
+		},
+		"Point": {
+			"Point": { "x": 0, "y": 0, "width": 6, "height": 6 }
+		},
+		"Line_Max": {
+			"Line_Max": { "x": 35.5, "y": 0, "width": 31, "height": 8 }
+		},
+		"Line_Max copy": {
+			"Line_Max copy": { "x": 0, "y": -1, "width": 102, "height": 102 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: TakeDMGSubTree
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_action":{"executionMode":1,"actions":[{"parameter":{"_name":"AI_Damage","_targetVariableID":"1278a292-3120-46b3-8929-1a647514975b"},"parameterHashID":{},"overrideAgent":{"_type":"UnityEngine.Animator","_name":"Animator","_targetVariableID":"6732ff63-7a86-4db2-b9f9-f00c4f4d9dcf"},"$type":"NodeCanvas.Tasks.Actions.MecanimSetTrigger"},{"parameter":{"_name":"AI_Speed","_targetVariableID":"b86d0a82-f3cd-460d-b9d3-2d873c5ca5b6"},"parameterHashID":{},"setTo":{},"transitTime":0.15,"updateFrameByFrame":{},"overrideAgent":{"_type":"UnityEngine.Animator","_name":"Animator","_targetVariableID":"6732ff63-7a86-4db2-b9f9-f00c4f4d9dcf"},"$type":"NodeCanvas.Tasks.Actions.MecanimSetFloat"},{"parameter":{"_name":"AI_Vertical","_targetVariableID":"f52d5dd4-7386-43b8-8ce6-88a3c9b81cf3"},"parameterHashID":{},"setTo":{},"transitTime":0.15,"updateFrameByFrame":{},"overrideAgent":{"_type":"UnityEngine.Animator","_name":"Animator","_targetVariableID":"6732ff63-7a86-4db2-b9f9-f00c4f4d9dcf"},"$type":"NodeCanvas.Tasks.Actions.MecanimSetFloat"},{"parameter":{"_name":"AI_Horizontal","_targetVariableID":"c556f23f-5915-4e8f-86e8-dd09ea8b9c57"},"parameterHashID":{},"setTo":{},"transitTime":0.15,"updateFrameByFrame":{},"overrideAgent":{"_type":"UnityEngine.Animator","_name":"Animator","_targetVariableID":"6732ff63-7a86-4db2-b9f9-f00c4f4d9dcf"},"$type":"NodeCanvas.Tasks.Actions.MecanimSetFloat"},{"method":{"_baseInfo":"EnemyController|SetTakeDMG|System.Void","_paramsInfo":"System.Boolean"},"parameters":[{"_type":"System.Boolean","_value":{"$content":false,"$type":"System.Boolean"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"boolVariable":{"_name":"ChaseSensor","_targetVariableID":"14daa4e8-1cbf-4690-b7ba-981f07aef454"},"$type":"NodeCanvas.Tasks.Actions.SetBoolean"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":653.559,"y":746.9854},"_comment":"Tr\u1ea3
+    animation v\u1ec1 Idle.","$type":"NodeCanvas.BehaviourTrees.ActionNode"}],"connections":[],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.25
+    _category: 
+    _comments: 
+    _translation: {x: -154.9999, y: -623.9997}
+    _zoomFactor: 1
+  _haltSerialization: 0

@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33cde19aa2b36964e8b508bd621411fe, type: 3}
+  m_Name: Lynx Config
+  m_EditorClassIdentifier: 
+  Name: Lynx
+  Level: 1
+  CurrentEXP: 0
+  Infor: 
+  NormalAttackMultiplier:
+  - MultiplierTypeName: 1 - Hit DMG (%)
+    Multiplier:
+    - 36.11
+    - 39.05
+    - 42.03
+    - 46.13
+    - 49.11
+    - 52.06
+    - 57.12
+    - 61.74
+    - 66.35
+    - 71.04
+  - MultiplierTypeName: 2 - Hit DMG (%)
+    Multiplier:
+    - 36.11
+    - 39.05
+    - 42.03
+    - 46.13
+    - 49.11
+    - 52.06
+    - 57.12
+    - 61.74
+    - 66.35
+    - 71.04
+  - MultiplierTypeName: 3 - Hit DMG (%)
+    Multiplier:
+    - 46.32
+    - 50.12
+    - 54.15
+    - 59.01
+    - 63.18
+    - 67.21
+    - 73.44
+    - 79.38
+    - 85.32
+    - 91.08
+  - MultiplierTypeName: 4 - Hit DMG (%)
+    Multiplier:
+    - 47.66
+    - 51.16
+    - 55.02
+    - 60.21
+    - 64.35
+    - 68.75
+    - 74.08
+    - 80.88
+    - 86.91
+    - 93.55
+  - MultiplierTypeName: 5 - Hit DMG (%)
+    Multiplier:
+    - 59.34
+    - 61.17
+    - 69.33
+    - 75.09
+    - 80.71
+    - 86.23
+    - 93.84
+    - 101.43
+    - 109.02
+    - 117.32
+  ChargedAttackMultiplier:
+  - MultiplierTypeName: Aimed Shot (%)
+    Multiplier:
+    - 43.86
+    - 47.43
+    - 51.24
+    - 56.01
+    - 59.68
+    - 73.75
+    - 69.35
+    - 74.97
+    - 80.58
+    - 86.07
+  - MultiplierTypeName: Fully-Charged Aimed Shot (%)
+    Multiplier:
+    - 150
+    - 200
+    - 250
+    - 300
+    - 350
+    - 400
+    - 450
+    - 500
+    - 550
+    - 600
+  SkillMultiplier:
+  - MultiplierTypeName: DMG Per Arrow (%)
+    Multiplier:
+    - 65
+    - 80
+    - 95
+    - 110
+    - 125
+    - 140
+    - 155
+    - 170
+    - 185
+    - 200
+  SpecialMultiplier:
+  - MultiplierTypeName: Fiery Rain DMG Per Wave (%)
+    Multiplier:
+    - 54.39
+    - 58.92
+    - 61.12
+    - 65.83
+    - 68.29
+    - 71.04
+    - 75.72
+    - 79.41
+    - 83.49
+    - 86.06
+  MaxHP: 200
+  ATK: 80
+  CRITRate: 15
+  CRITDMG: 50
+  DEF: 15
+  WalkSpeed: 1.7
+  RunSpeed: 5.7
+  MaxST: 100
+  ChargedAttackStaminaCost: 20
+  RunFastSpeed: 8
+  DashStaminaCost: 25
+  JumpHeight: 1
+  JumpCD: 0.38
+  ElementalSkillCD: 10
+  ElementalBurstCD: 15
+  WeaponName: Twilight
+  WeaponInfo: Increases Elemental Skill and Elemental Burst DMG by 36%
+  WeaponLevel: 1
+  NameCode: 1
+  ChapterIcon: {fileID: 21300000, guid: 9d5e6a7e8c664db49855fcb4f3272189, type: 3}

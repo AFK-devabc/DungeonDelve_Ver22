@@ -1,0 +1,27 @@
+
+Crosshair.png
+size: 88,96
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Circle
+  rotate: false
+  xy: 2, 2
+  size: 82, 82
+  orig: 84, 84
+  offset: 1, 1
+  index: -1
+Line_Max
+  rotate: false
+  xy: 8, 86
+  size: 29, 6
+  orig: 31, 8
+  offset: 1, 1
+  index: -1
+Point
+  rotate: false
+  xy: 2, 88
+  size: 4, 4
+  orig: 6, 6
+  offset: 1, 1
+  index: -1
